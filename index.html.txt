@@ -94,7 +94,11 @@
     </section>
 
     <footer>
-        <p>Projeto UC00617 - 2026</p>
+        <footer>
+    <h3>Mundo da Tecnologia</h3>
+    <p>Projeto individual UC00617</p>
+    <p>Desenvolvido em 2026</p>
+</footer>
     </footer>
 
 </body>
