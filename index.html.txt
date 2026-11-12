@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo da Tecnologia</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #101827;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        header, footer {
+            background: #172b46;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: #203650;
+            margin: 15px auto;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 400px;
+        }
+
+        a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mundo da Tecnologia</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#computadores">Computadores</a>
+            <a href="#componentes">Componentes</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bem-vindo!</h2>
+        <p>Descobre o mundo da tecnologia e da informática.</p>
+    </section>
+
+    <section id="computadores">
+        <h2>Tipos de Computadores</h2>
+
+        <div class="card">
+            <h3>Computadores de secretária</h3>
+            <p>Utilizados em casas, escolas e empresas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portáteis</h3>
+            <p>Computadores fáceis de transportar.</p>
+        </div>
+    </section>
+
+    <section id="componentes">
+        <h2>Componentes de um PC</h2>
+
+        <div class="card">
+            <h3>Processador</h3>
+            <p>Executa as instruções do computador.</p>
+        </div>
+
+        <div class="card">
+            <h3>Memória RAM</h3>
+            <p>Guarda dados temporariamente.</p>
+        </div>
+
+        <div class="card">
+            <h3>Placa Gráfica</h3>
+            <p>Processa imagens e gráficos.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Projeto UC00617 - 2026</p>
+    </footer>
+
+</body>
+</html>
